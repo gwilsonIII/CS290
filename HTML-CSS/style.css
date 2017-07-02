@@ -1,0 +1,35 @@
+table{
+	border: 1px solid;
+	border-collapse:collapse;
+}
+
+td{
+	border: 1px solid;
+	border-collapse:collapse;
+}
+
+th{
+	border: 1px solid;
+	border-collapse:collapse;
+}
+tbody tr:nth-of-type(even){
+	background-color: green;
+}
+tbody tr:nth-of-type(odd){
+	background-color:red;
+}
+
+.outer-content{
+	background-color: pink;
+    margin-left: 0px;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.inner-content {
+	background-color: blue;
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+	
+}
